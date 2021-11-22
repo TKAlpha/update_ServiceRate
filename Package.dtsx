@@ -1,0 +1,78 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="11/22/2021 12:21:27 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="PGBARANOV"
+  DTS:CreatorName="CORP\pgbaranov"
+  DTS:DTSID="{1B713393-5491-4589-8D46-7D0DFA54A902}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="15.0.2000.123"
+  DTS:LocaleID="1049"
+  DTS:ObjectName="Package"
+  DTS:PackageType="5"
+  DTS:VersionBuild="1"
+  DTS:VersionGUID="{909800A2-DCA4-417C-8999-8AD4FDA45850}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[10.2.1.92\TAB.SR_new]"
+      DTS:CreationName="MSOLAP100"
+      DTS:DTSID="{C7BA231E-57B5-443F-91D4-69EFE9BB7D16}"
+      DTS:ObjectName="10.2.1.92\TAB.SR_new">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=10.2.1.92\TAB;User ID=CORP\pgbaranov;Initial Catalog=SR_new;Provider=MSOLAP.8;Impersonation Level=Impersonate;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAACLwYxdaCb0+/+dXxamSzaQAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADt3CUl3BWIARBqvHY0hoNYAAAAAASAAACgAAAAEAAAAItIpoOQpv0wBQc6nG0oQHwYAAAA4tYWgzsnD0cP18SajUNVJICcQguuBLmYFAAAAMKS6WPotIoIiZeLyB4Jgaln4C6i</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Задача &quot;Обработка средствами Analysis Services&quot;"
+      DTS:CreationName="Microsoft.DTSProcessingTask"
+      DTS:Description="Задача &quot;Обработка средствами Analysis Services&quot;"
+      DTS:DTSID="{41914C18-9282-4B50-ACF2-E5CBFB6D86A5}"
+      DTS:ExecutableType="Microsoft.DTSProcessingTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Задача &quot;Обработка средствами Analysis Services&quot;"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <ASProcessingData
+          ConnectionName="10.2.1.92\TAB.SR_new"
+          ProcessingCommands="{&#xA;  &quot;sequence&quot;: {&#xA;    &quot;operations&quot;: [&#xA;      {&#xA;        &quot;refresh&quot;: {&#xA;          &quot;type&quot;: &quot;automatic&quot;,&#xA;          &quot;objects&quot;: [&#xA;            {&#xA;              &quot;database&quot;: &quot;SR_new&quot;&#xA;            }&#xA;          ]&#xA;        }&#xA;      }&#xA;    ]&#xA;  }&#xA;}" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--В данном разделе CDATA содержатся сведения о макете пакета. В данном разделе содержатся сведения о координатах (x,y), ширине и высоте.-->
+<!--В случае возникновения ошибки при редактировании этого раздела вручную его можно удалить. -->
+<!--Пакет можно загрузить обычным образом, но прежние сведения о макете будут утеряны, и конструктор автоматически перераспределит элементы в области конструктора.-->
+<Objects
+  Version="8">
+  <!--Все приведенные ниже узлы будут содержать свойства, не влияющие на поведение среды выполнения.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="320,42"
+          Id="Package\Задача &quot;Обработка средствами Analysis Services&quot;"
+          TopLeft="416,206" />
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+  <ConnectionManager
+    design-time-name="Package.ConnectionManagers[10.2.1.92\TAB.SR_new]">
+    <ProjectReferenceName></ProjectReferenceName>
+  </ConnectionManager>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>

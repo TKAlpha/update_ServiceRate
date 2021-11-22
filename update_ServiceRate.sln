@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30309.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "update_ServiceRate", "update_ServiceRate.dtproj", "{3CF2E4A7-091D-4171-B72A-30BFAE666CCD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CF2E4A7-091D-4171-B72A-30BFAE666CCD}.Development|Default.ActiveCfg = Development
+		{3CF2E4A7-091D-4171-B72A-30BFAE666CCD}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D20E390D-4AB0-4131-99CA-58E91628C48C}
+	EndGlobalSection
+EndGlobal
