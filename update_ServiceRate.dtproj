@@ -26,17 +26,17 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">PGBARANOV</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAACLwYxdaCb0+/+dXxamSzaQAAAAACAAAAAAADZgAAwAAAABAAAAB33X8kvhh7Pnojt2NMCKYcAAAAAASAAACgAAAAEAAAAP3lM58Ib6CsAUszmTIA812IAAAAxYs/mQmsmnvvlAgTWTUvDfSw8BzXRuVOdTgnUwAorGMYvR4w126IlpQncSPx00UdHvuAS+HeN8oXseKv+hhmgLT5uItSypIoxTRjfzpO3GCF1gZrTanaNSYCJ14ZnmRdRQ3wM+3GjlsOlgEbf5/Er87syRm8nB6Wx4Uf4R0fVWleqA4w8ctE4BQAAADgiOpvP7TpMUH4SBQ/Yy3ihVRRKg==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAACLwYxdaCb0+/+dXxamSzaQAAAAACAAAAAAADZgAAwAAAABAAAACDWuotOupIRmkn7h4EH96CAAAAAASAAACgAAAAEAAAABZQkUjUqQfvPNBfggKJgfGIAAAAEP5QzV4Yvq7D+AxjrsSTxn7wjz1K2h6E0fTBgDkjgLJ6ajuAspghBKaDUzw0lDI4AIaXzb0Do6P74+88DtawdLboVEeAmOx/wFCaoQTd5jbMFGdM76jl+aZ7dYN1amvUsYl+b9pXqUzuXRYYo6myKQl8L35o7RZL9ZJrnK48Y3SF1vqPPotz3RQAAAB3QCqhtT9LIcGfkEfhxFfNUMa49Q==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
-          <SSIS:Package SSIS:Name="Package.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="SR.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers />
         <SSIS:DeploymentInfo>
           <SSIS:ProjectConnectionParameters />
           <SSIS:PackageInfo>
-            <SSIS:PackageMetaData SSIS:Name="Package.dtsx">
+            <SSIS:PackageMetaData SSIS:Name="SR.dtsx">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">{1B713393-5491-4589-8D46-7D0DFA54A902}</SSIS:Property>
                 <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>

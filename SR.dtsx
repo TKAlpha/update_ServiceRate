@@ -11,8 +11,8 @@
   DTS:LocaleID="1049"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="1"
-  DTS:VersionGUID="{909800A2-DCA4-417C-8999-8AD4FDA45850}">
+  DTS:VersionBuild="3"
+  DTS:VersionGUID="{93D54F20-F552-4FEC-839C-C9E034972048}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,7 +27,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAACLwYxdaCb0+/+dXxamSzaQAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADt3CUl3BWIARBqvHY0hoNYAAAAAASAAACgAAAAEAAAAItIpoOQpv0wBQc6nG0oQHwYAAAA4tYWgzsnD0cP18SajUNVJICcQguuBLmYFAAAAMKS6WPotIoIiZeLyB4Jgaln4C6i</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAACLwYxdaCb0+/+dXxamSzaQAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAABHWhyHiNu1+xgVyWB0dobAAAAAAASAAACgAAAAEAAAAFYpYlRHDKAs/A6DpvMweZwYAAAAUTPp+XlO0dBkkE3iqH2SiwaUwM9ombRuFAAAAOJibhcELJd9Ff385HVYCwwjumqW</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -47,7 +47,7 @@
       <DTS:ObjectData>
         <ASProcessingData
           ConnectionName="10.2.1.92\TAB.SR_new"
-          ProcessingCommands="{&#xA;  &quot;sequence&quot;: {&#xA;    &quot;operations&quot;: [&#xA;      {&#xA;        &quot;refresh&quot;: {&#xA;          &quot;type&quot;: &quot;automatic&quot;,&#xA;          &quot;objects&quot;: [&#xA;            {&#xA;              &quot;database&quot;: &quot;SR_new&quot;&#xA;            }&#xA;          ]&#xA;        }&#xA;      }&#xA;    ]&#xA;  }&#xA;}" />
+          ProcessingCommands="{&#xA;  &quot;sequence&quot;: {&#xA;    &quot;operations&quot;: [&#xA;      {&#xA;        &quot;refresh&quot;: {&#xA;          &quot;type&quot;: &quot;full&quot;,&#xA;          &quot;objects&quot;: [&#xA;            {&#xA;              &quot;database&quot;: &quot;SR_new&quot;&#xA;            }&#xA;          ]&#xA;        }&#xA;      }&#xA;    ]&#xA;  }&#xA;}" />
       </DTS:ObjectData>
     </DTS:Executable>
   </DTS:Executables>
